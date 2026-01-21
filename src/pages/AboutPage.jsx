@@ -49,7 +49,7 @@ const AboutPage = () => {
               </motion.h1>
               
               <motion.p variants={itemVariants} className="text-xl lg:text-2xl text-[#7BB8E8] max-w-3xl mx-auto font-medium leading-relaxed">
-                ITTERNS <span className="text-white">CORP</span> est une ESN visionnaire dédiée à la transformation technologique des entreprises.
+                ITTENS <span className="text-white">CORP</span> est une ESN visionnaire dédiée à la transformation technologique des entreprises.
               </motion.p>
             </motion.div>
           </div>
@@ -148,7 +148,7 @@ const AboutPage = () => {
               
               <div className="space-y-8 text-center lg:text-left">
                 <blockquote className="text-2xl lg:text-4xl font-bold text-white italic leading-tight">
-                  "Notre mission chez ITTERNS CORP est de transformer chaque défi technologique en une opportunité de croissance durable pour nos partenaires."
+                  "Notre mission chez ITTENS CORP est de transformer chaque défi technologique en une opportunité de croissance durable pour nos partenaires."
                 </blockquote>
                 <div>
             
