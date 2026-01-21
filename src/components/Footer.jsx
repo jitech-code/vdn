@@ -10,6 +10,7 @@ import {
   Facebook,
   Send
 } from 'lucide-react';
+// Dans votre composant
 
 // --- CONFIGURATION COULEURS MISE À JOUR ---
 const COLORS = {
@@ -39,7 +40,7 @@ const Footer = () => {
               {/* Utilisation du logo image */}
               <img src="/src/assets/log.png" alt="Logo ITTERNS" className="w-12 h-12 object-contain" />
               <span className="text-2xl font-black italic tracking-tighter">
-                ITTERNS <span style={{ color: COLORS.accent }}>CORP</span>
+                ITTENS <span style={{ color: COLORS.accent }}>CORP SARL</span>
               </span>
             </div>
             <p className="text-[#7BB8E8] font-bold mb-6">L'expertise numérique d'élite au service de votre croissance.</p>
@@ -138,7 +139,7 @@ const Footer = () => {
 
         {/* BARRE DE COPYRIGHT */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400">
-          <p>© 2015 ITTERNS CORP. Tous droits réservés.</p>
+          <p>© 2015 ITTENS CORP. Tous droits réservés.</p>
           <div className="flex gap-6">
             <Link to="/contact" className="hover:text-white transition-colors">Aide & Support</Link>
             <a href="#" className="hover:text-white transition-colors">Mentions légales</a>

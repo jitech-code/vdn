@@ -8,7 +8,9 @@ import {
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import log from '../assets/log.png';
-
+const openCalendly = () => {
+  window.open("https://calendly.com/votre-nom", "_blank");
+};
 const ContactPage = () => {
   const [formData, setFormData] = useState({});
 
@@ -56,7 +58,7 @@ const ContactPage = () => {
                 className="relative h-[450px] lg:h-[550px] rounded-[3rem] overflow-hidden border-[12px] border-white/10 shadow-2xl"
               >
                 <img 
-                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1000" 
+                  src="https://i.pinimg.com/736x/c2/bd/78/c2bd78ee39e885e7be5a4c1b3ff5d59f.jpg" 
                   alt="Team ITTERNS" 
                   className="w-full h-full object-cover brightness-110 contrast-110" 
                 />
@@ -138,7 +140,7 @@ const ContactPage = () => {
               <form className="grid md:grid-cols-2 gap-10">
                 <div className="space-y-3">
                   <label className="text-xs font-black uppercase tracking-[0.2em] text-[#2E5F8C] ml-2">Nom & Prénom</label>
-                  <input type="text" className="w-full px-8 py-6 bg-gray-50 border-2 border-transparent focus:border-[#a94c79] focus:bg-white rounded-3xl transition-all font-bold text-[#333333] outline-none" placeholder="Ex: Jean Dupont" />
+                  <input type="text" className="w-full px-8 py-6 bg-gray-50 border-2 border-transparent focus:border-[#a94c79] focus:bg-white rounded-3xl transition-all font-bold text-[#333333] outline-none" placeholder="Ex: ...." />
                 </div>
                 <div className="space-y-3">
                   <label className="text-xs font-black uppercase tracking-[0.2em] text-[#2E5F8C] ml-2">Service souhaité</label>
@@ -160,7 +162,7 @@ const ContactPage = () => {
                   className="md:col-span-2 text-white py-8 rounded-[2.5rem] font-black text-2xl flex items-center justify-center gap-6 shadow-2xl transition-all group"
                   style={{ backgroundColor: '#a94c79', boxShadow: '0 25px 50px -12px rgba(169, 76, 121, 0.4)' }}
                 >
-                  Envoyer à ITTERNS CORP <Send size={24} className="group-hover:translate-x-2 transition-transform" />
+                  Envoyer à ITTENS CORP SARL <Send size={24} className="group-hover:translate-x-2 transition-transform" />
                 </motion.button>
               </form>
             </motion.div>
@@ -194,7 +196,7 @@ const ContactPage = () => {
               <div className="relative z-10">
                 <h3 className="text-5xl font-black italic mb-8 leading-tight">BESOIN D'UN <br />DEVIS RAPIDE ?</h3>
                 <p className="text-white/80 font-bold mb-10 text-xl">Planifiez un appel stratégique avec nos consultants.</p>
-                <button className="bg-white text-[#a94c79] px-12 py-6 rounded-2xl font-black text-xl flex items-center gap-4 hover:scale-105 transition-all">
+                <button onClick={openCalendly} className="bg-white text-[#a94c79] px-12 py-6 rounded-2xl font-black text-xl flex items-center gap-4 hover:scale-105 transition-all">
                   Réserver mon créneau <Calendar size={24} />
                 </button>
               </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import  { Link } from 'react-router-dom';
 import { 
   Code2, Globe, Smartphone, Cpu, 
   ArrowRight, CheckCircle2, Layers, Database 
@@ -181,9 +182,11 @@ const DevNumeriquePage = () => {
               <p className="text-xl text-white/80 font-medium max-w-2xl mx-auto">
                 Discutez de votre cahier des charges avec nos ingénieurs. Nous transformons vos idées complexes en outils digitaux puissants.
               </p>
-              <button className="bg-white text-[#a94c79] px-12 py-7 rounded-full font-black text-2xl hover:scale-105 transition-all shadow-2xl flex items-center gap-4 mx-auto">
+              <Link to='/contact' >
+               <button className="bg-white text-[#a94c79] px-12 py-7 rounded-full font-black text-2xl hover:scale-105 transition-all shadow-2xl flex items-center gap-4 mx-auto">
                 Parler à un expert <Code2 size={28} />
-              </button>
+               </button>
+              </Link>
             </div>
              <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/circuit-board.png')] opacity-10 mix-blend-overlay"></div>
           </div>

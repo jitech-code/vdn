@@ -8,7 +8,7 @@ import {
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-
+import { Link } from 'react-router-dom';
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { staggerChildren: 0.2 } }
@@ -26,7 +26,7 @@ const MarketingDigitalPage = () => {
       icon: <Megaphone size={32} />,
       description: "Maximisez votre ROI avec des campagnes publicitaires ciblées sur Google, les réseaux sociaux et plateformes clés.",
       features: ["Google Ads (SEA)", "Campagnes Social Ads", "Retargeting & Display", "Analyse de performance"],
-      image: "https://images.unsplash.com/photo-1579737190673-c603b57361a3?auto=format&fit=crop&q=80&w=800",
+      image: "https://i.pinimg.com/736x/2a/a6/fb/2aa6fb4796e6d9f22a8b8e071c0e5f40.jpg",
       benefits: ["Acquisition rapide", "Ciblage précis", "Visibilité accrue"]
     },
     {
@@ -34,7 +34,7 @@ const MarketingDigitalPage = () => {
       icon: <Lightbulb size={32} />,
       description: "De l'audit à l'exécution, nous élaborons une feuille de route digitale sur mesure pour atteindre vos objectifs business.",
       features: ["Audit digital complet", "Positionnement de marque", "Plan marketing intégré", "Optimisation du funnel"],
-      image: "https://www.pinterest.com/pin/231091024623352066/",
+      image: "https://i.pinimg.com/1200x/1a/05/5e/1a055ee6a34b6c06b2a17cc6753c9e5e.jpg",
       benefits: ["Vision à 360°", "Cohérence des actions", "Croissance durable"]
     },
     {
@@ -49,6 +49,7 @@ const MarketingDigitalPage = () => {
 
   return (
     <>
+    
       <Navbar />
       <div className="bg-white text-[#333333] min-h-screen overflow-hidden font-sans">
         
@@ -190,9 +191,11 @@ const MarketingDigitalPage = () => {
       </p>
 
       {/* Bouton : padding réduit sur mobile, texte plus petit, centré */}
-      <button className="bg-white text-[#a94c79] px-8 py-4 lg:px-12 lg:py-7 rounded-full font-black text-lg lg:text-2xl hover:scale-105 active:scale-95 transition-all shadow-2xl flex items-center justify-center gap-3 mx-auto w-full sm:w-auto">
-        Obtenir mon devis <TrendingUp className="w-5 h-5 lg:w-7 lg:h-7" />
-      </button>
+      <Link to='/contact'>
+        <button className="bg-white text-[#a94c79] px-8 py-4 lg:px-12 lg:py-7 rounded-full font-black text-lg lg:text-2xl hover:scale-105 active:scale-95 transition-all shadow-2xl flex items-center justify-center gap-3 mx-auto w-full sm:w-auto">
+          Obtenir mon devis <TrendingUp className="w-5 h-5 lg:w-7 lg:h-7" />
+        </button>
+      </Link>
     </div>
 
     {/* Effet de texture discret */}

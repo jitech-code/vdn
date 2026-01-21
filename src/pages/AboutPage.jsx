@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import  { Link } from 'react-router-dom';
 import { 
   Users, Target, Rocket, CheckCircle2, 
   MapPin, Award, ArrowRight, Zap, 
@@ -165,12 +166,16 @@ const AboutPage = () => {
               PRÊT À <span style={{ color: '#a94c79' }}>INNOVER</span> ?
             </h2>
             <div className="flex flex-wrap justify-center gap-6">
+             <Link to="/contact">
+                  
               <button className="bg-[#a94c79] text-white px-12 py-6 rounded-full font-black text-xl hover:scale-105 transition-all shadow-xl shadow-[#a94c79]/30 flex items-center gap-4 group">
                 Démarrer un projet <ArrowRight className="group-hover:translate-x-2 transition-transform" />
               </button>
-              <button className="border-2 border-[#2E5F8C] text-[#2E5F8C] px-12 py-6 rounded-full font-black text-xl hover:bg-[#2E5F8C] hover:text-white transition-all">
+             </Link>
+             
+              {/* <button className="border-2 border-[#2E5F8C] text-[#2E5F8C] px-12 py-6 rounded-full font-black text-xl hover:bg-[#2E5F8C] hover:text-white transition-all">
                 Voir nos expertises
-              </button>
+              </button> */}
             </div>
           </div>
         </section>
