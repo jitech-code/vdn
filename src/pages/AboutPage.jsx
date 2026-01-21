@@ -39,7 +39,7 @@ const AboutPage = () => {
               className="text-center space-y-8"
             >
               <motion.div variants={itemVariants} className="inline-block px-6 py-2 rounded-full bg-[#a94c79] text-white text-xs font-black uppercase tracking-[0.3em] shadow-lg shadow-[#a94c79]/20">
-                Depuis 2019 à vos côtés
+                Depuis 2015 à vos côtés
               </motion.div>
               
               <motion.h1 variants={itemVariants} className="text-6xl lg:text-[10rem] font-black text-white leading-none tracking-tighter">
