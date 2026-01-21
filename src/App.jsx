@@ -3,7 +3,7 @@ import HomePage from './pages/HomePage';
 
 import ContactPage from './pages/ContactPage';
 import { MessageSquare } from 'lucide-react';
-import DevNumeriquePage from './pages/DevnumeriquePage';
+import DevNumeriquePage from './pages/DevNumeriquePage';
 import MarketingDigitalPage from './pages/Marketing';
 import AboutPage from './pages/AboutPage';
 
