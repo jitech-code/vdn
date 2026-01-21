@@ -15,6 +15,7 @@ import {
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import log from '../assets/log.png'
 
 // --- CONFIGURATION COULEURS MISE À JOUR ---
 const COLORS = {
@@ -110,9 +111,9 @@ const HomePage = () => {
             >
               Lancer mon projet <ArrowRight className="group-hover:translate-x-2 transition-transform" />
             </button>
-            <button className="bg-white/10 backdrop-blur-md border-2 border-white/50 text-white px-10 py-5 rounded-2xl font-black text-xl hover:bg-white/20 transition-all">
+            {/* <button className="bg-white/10 backdrop-blur-md border-2 border-white/50 text-white px-10 py-5 rounded-2xl font-black text-xl hover:bg-white/20 transition-all">
               Nos Réalisations
-            </button>
+            </button> */}
           </motion.div>
         </div>
       </section>

@@ -7,6 +7,7 @@ import {
   X,
   ArrowRight, ChevronRight
 } from 'lucide-react';
+import log from '../assets/log.png';
 
 // --- CONFIGURATION COULEURS MISE À JOUR ---
 const COLORS = {
@@ -60,9 +61,9 @@ const Navbar = ({ onDevisClick }) => {
         
         {/* LOGO */}
         <Link to="/" className="flex items-center gap-3 cursor-pointer group">
-          <img src="/src/assets/log.png" alt="Logo" className="w-20 h-20 object-contain group-hover:scale-110 transition-transform" />
+          <img src={log} alt="Logo" className="w-20 h-20 object-contain group-hover:scale-110 transition-transform" />
           <span className={`text-xl md:text-2xl font-black tracking-tighter ${isScrolled ? 'text-[#2E5F8C]' : 'text-white'}`}>
-            ITTERNS <span style={{ color: isScrolled ? COLORS.accent : COLORS.light }}>CORP</span>
+            ITTENS <span style={{ color: isScrolled ? COLORS.accent : COLORS.light }}>CORP</span>
           </span>
         </Link>
 
