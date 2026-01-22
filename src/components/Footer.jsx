@@ -10,6 +10,7 @@ import {
   Facebook,
   Send
 } from 'lucide-react';
+import log from '../assets/log.png';
 // Dans votre composant
 
 // --- CONFIGURATION COULEURS MISE À JOUR ---
@@ -38,7 +39,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-3 mb-6">
               {/* Utilisation du logo image */}
-              <img src="/src/assets/log.png" alt="Logo ITTERNS" className="w-12 h-12 object-contain" />
+              <img src={log} alt="Logo ITTERNS" className="w-12 h-12 object-contain" />
               <span className="text-2xl font-black italic tracking-tighter">
                 ITTENS <span style={{ color: COLORS.accent }}>CORP SARL</span>
               </span>
