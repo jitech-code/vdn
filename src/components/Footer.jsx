@@ -99,7 +99,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} style={{ color: COLORS.accentLight }} />
-                <span className="text-sm">contact@itterns-corp.com</span>
+                <span className="text-sm">contact@ittens-corp.com</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} style={{ color: COLORS.accentLight }} />
