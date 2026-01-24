@@ -152,7 +152,7 @@ const AboutPage = () => {
                 </blockquote>
                 <div>
             
-                  <p className="text-white/60 font-bold uppercase tracking-widest text-sm">ITTERNS CORP</p>
+                  <p className="text-white/60 font-bold uppercase tracking-widest text-sm">ITTENS CORP</p>
                 </div>
               </div>
             </div>

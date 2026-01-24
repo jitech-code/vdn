@@ -96,7 +96,7 @@ const HomePage = () => {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 font-medium drop-shadow-lg"
           >
-            ITTERNS CORP fusionne ingénierie de pointe et stratégies de croissance pour propulser votre entreprise au sommet.
+            ITTENS CORP fusionne ingénierie de pointe et stratégies de croissance pour propulser votre entreprise au sommet.
           </motion.p>
 
           <motion.div 
