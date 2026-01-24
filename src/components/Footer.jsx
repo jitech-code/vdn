@@ -140,7 +140,7 @@ const Footer = () => {
 
         {/* BARRE DE COPYRIGHT */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400">
-          <p>© 2015 ITTENS CORP. Tous droits réservés.</p>
+          <p>© 2018 ITTENS CORP. Tous droits réservés.</p>
           <div className="flex gap-6">
             <Link to="/contact" className="hover:text-white transition-colors">Aide & Support</Link>
             <a href="#" className="hover:text-white transition-colors">Mentions légales</a>
